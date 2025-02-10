@@ -1,0 +1,20 @@
+Homework answers.
+
+Data Types:
+Numeric data types: int, float, complex.
+String data types: str.
+Sequence types: list, tuple, range.
+Binary types: bytes, bytearray, memoryview.
+Mapping data type: dict.
+Boolean type: bool.
+Set data types: set, frozenset.
+
+Arithmetic Operations:
+
+addition ( + ),
+subtraction ( - ),
+multiplication ( * ),
+division ( / ),
+floor division ( // ),
+modulus ( % ),
+exponentiation ( ** ).
