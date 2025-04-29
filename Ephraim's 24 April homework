@@ -1,0 +1,144 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPJcDico6SS/tzvE+bXlcby",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/EQL-123/ACC_Py_Classes/blob/main/Ephraim's%2024%20April%20homework\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1.Use the get method to print the value of the \"model\" key of the car dictionary.\n",
+        "car =\t{\n",
+        "  \"brand\": \"Ford\",\n",
+        "  \"model\": \"Mustang\",\n",
+        "  \"year\": 1964\n",
+        "}\n",
+        "\n",
+        "print(………………...)\n"
+      ],
+      "metadata": {
+        "id": "fO8QqRLu0gGQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "car = {\n",
+        "  \"brand\": \"Ford\",\n",
+        "  \"model\": \"Mustang\",\n",
+        "  \"year\": 1964\n",
+        "}\n",
+        "\n",
+        "print(car.get(\"model\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ouER0JzU028F",
+        "outputId": "88e881ea-515c-4ea0-912a-f78155c7ca66"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mustang\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Consider the following code:\n",
+        "x = {'type' : 'fruit', 'name' : 'banana'}\n",
+        "print(x['type'])\n",
+        "What will be the printed result?\n",
+        "\n",
+        " a)banana\n",
+        " b)fruit\n",
+        " c)type = 'fruit'\n",
+        "-The printed result will be fruit\n"
+      ],
+      "metadata": {
+        "id": "qA6ebGqu1cTA"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Change the \"year\" value from 1964 to 2020.\n",
+        "\n",
+        "car =\t{\n",
+        "  \"brand\": \"Ford\",\n",
+        "  \"model\": \"Mustang\",\n",
+        "  \"year\": 1964\n",
+        "}\n",
+        "………....…….=………..\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "dILSXlAb2Y8c"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "car =\t{\n",
+        "  \"brand\": \"Ford\",\n",
+        "  \"model\": \"Mustang\",\n",
+        "  \"year\": 1964\n",
+        "}\n",
+        "car[\"year\"]=2020"
+      ],
+      "metadata": {
+        "id": "W_EsQtvG2uo8"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Consider the following code:\n",
+        "x = {'type' : 'fruit', 'name' : 'banana'}\n",
+        "What is a correct syntax for changing the name from banana to apple?\n",
+        "\n",
+        "a) x.update({'name': 'apple'})\n",
+        "b) x.update('name' = 'apple')\n",
+        "c) x.update('name','apple'\n",
+        "\n",
+        "-The correct syntax is a) x.update({'name':'apple'})"
+      ],
+      "metadata": {
+        "id": "zpqV0TOB3BSH"
+      }
+    }
+  ]
+}
